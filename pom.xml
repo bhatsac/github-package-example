@@ -13,6 +13,21 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <developers>
+        <developer>
+            <name>SSB</name>
+            <email>ssb@gmail.com</email>
+            <organization>com.bhatsac</organization>
+            <organizationUrl>https://github.com/bhatsac/github-package-example</organizationUrl>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git://github.com/bhatsac/github-package-example.git</connection>
+        <developerConnection>scm:git:https://github.com/bhatsac/github-package-example.git
+        </developerConnection>
+        <url>https://github.com/bhatsac/github-package-example</url>
+        <tag>1.0.0</tag>
+    </scm>
     <distributionManagement>
         <repository>
             <id>github</id>
